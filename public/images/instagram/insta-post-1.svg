@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" class="w-full h-full object-cover">
+  <defs>
+    <radialGradient id="instaGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#3A170A"/>
+      <stop offset="100%" stop-color="#120603"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#instaGlow)"/>
+  
+  <!-- Subtle circular plate / pizza motif -->
+  <circle cx="300" cy="260" r="160" fill="#29140A" stroke="#7C2D12" stroke-width="4"/>
+  <circle cx="300" cy="260" r="140" fill="#B91C1C" opacity="0.9"/>
+  <circle cx="300" cy="260" r="125" fill="#FBBF24" opacity="0.95"/>
+  <ellipse cx="260" cy="230" rx="20" ry="10" fill="#15803D"/>
+  <ellipse cx="340" cy="270" rx="22" ry="11" fill="#15803D"/>
+  <circle cx="300" cy="260" r="16" fill="#B45309"/>
+
+  <!-- Instagram brand gradient bar on top -->
+  <rect x="0" y="0" width="600" height="6" fill="#E1306C"/>
+
+  <!-- Caption overlay -->
+  <rect y="430" width="600" height="170" fill="#0A0402" opacity="0.95"/>
+  <text x="30" y="475" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="bold" fill="#FFF7ED">Zesty Chicken Perfection</text>
+  <text x="30" y="515" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" fill="#FED7AA">Fresh out of the wood-fired stone oven. Golden crust, bubbling cheese!</text>
+  <text x="30" y="555" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#EA580C">YESTERDAY • @subakes</text>
+  <g transform="translate(530, 460)">
+    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#E1306C"/>
+  </g>
+</svg>

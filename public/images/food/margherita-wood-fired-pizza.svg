@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" class="w-full h-full object-cover">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#2c1810" />
+      <stop offset="60%" stop-color="#1a0e0a" />
+      <stop offset="100%" stop-color="#0d0705" />
+    </radialGradient>
+    <linearGradient id="crustGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="40%" stop-color="#9A3412" />
+      <stop offset="80%" stop-color="#7C2D12" />
+      <stop offset="100%" stop-color="#431407" />
+    </linearGradient>
+    <radialGradient id="cheeseGrad" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="35%" stop-color="#FDE047" />
+      <stop offset="70%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </radialGradient>
+    <radialGradient id="sauceGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DC2626" />
+      <stop offset="70%" stop-color="#B91C1C" />
+      <stop offset="100%" stop-color="#7F1D1D" />
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000" flood-opacity="0.45" />
+    </filter>
+    <filter id="charDrop" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Warm Slate / Wood Table Texture -->
+  <rect width="800" height="600" fill="url(#bgGlow)" />
+
+  <!-- Subtle rustic wooden table grain lines -->
+  <g opacity="0.12" stroke="#fff" stroke-width="1.5">
+    <line x1="0" y1="120" x2="800" y2="120" stroke-dasharray="120 40 80 60"/>
+    <line x1="0" y1="280" x2="800" y2="280" stroke-dasharray="90 30 150 40"/>
+    <line x1="0" y1="440" x2="800" y2="440" stroke-dasharray="200 50 100 80"/>
+  </g>
+
+  <!-- Serving Board / Plate -->
+  <g filter="url(#shadow)">
+    <circle cx="400" cy="290" r="230" fill="#292524" stroke="#44403c" stroke-width="6" />
+    <circle cx="400" cy="290" r="222" fill="#1c1917" opacity="0.6"/>
+  </g>
+
+  <!-- Specific Food Art Elements -->
+  
+    <!-- Pizza Crust -->
+    <g filter="url(#shadow)">
+      <circle cx="400" cy="290" r="195" fill="url(#crustGrad)" />
+      <!-- Charred Leopard Spots on rim -->
+      <ellipse cx="230" cy="230" rx="14" ry="7" fill="#1c1917" transform="rotate(-30 230 230)" opacity="0.85"/>
+      <ellipse cx="320" cy="115" rx="18" ry="8" fill="#1c1917" opacity="0.9"/>
+      <ellipse cx="480" cy="112" rx="16" ry="9" fill="#1c1917" transform="rotate(15 480 112)" opacity="0.85"/>
+      <ellipse cx="570" cy="220" rx="13" ry="8" fill="#1c1917" transform="rotate(40 570 220)" opacity="0.9"/>
+      <ellipse cx="560" cy="380" rx="17" ry="7" fill="#1c1917" transform="rotate(-35 560 380)" opacity="0.85"/>
+      <ellipse cx="430" cy="470" rx="19" ry="8" fill="#1c1917" opacity="0.9"/>
+      <ellipse cx="260" cy="410" rx="15" ry="9" fill="#1c1917" transform="rotate(25 260 410)" opacity="0.85"/>
+      
+      <!-- Rich San Marzano Tomato Base -->
+      <circle cx="400" cy="290" r="162" fill="url(#sauceGrad)" />
+      
+      <!-- Melted Golden Mozzarella Layer -->
+      <circle cx="400" cy="290" r="150" fill="url(#cheeseGrad)" opacity="0.95" />
+      
+      <!-- Bubbling Cheese & Char Patches -->
+      <circle cx="360" cy="260" r="28" fill="#FEF08A" opacity="0.6"/>
+      <circle cx="450" cy="310" r="32" fill="#FEF08A" opacity="0.5"/>
+      <ellipse cx="380" cy="340" rx="16" ry="8" fill="#9A3412" opacity="0.7"/>
+      <ellipse cx="430" cy="220" rx="14" ry="7" fill="#9A3412" opacity="0.65"/>
+    </g>
+
+    <!-- Specific Toppings -->
+    
+    <!-- Fresh Mozzarella Discs -->
+    <g fill="#FFFBEB" stroke="#FEF3C7" stroke-width="2" filter="url(#charDrop)">
+      <circle cx="340" cy="240" r="26"/>
+      <circle cx="450" cy="240" r="28"/>
+      <circle cx="400" cy="320" r="30"/>
+      <circle cx="330" cy="330" r="24"/>
+      <circle cx="470" cy="320" r="24"/>
+    </g>
+    <!-- Basil Leaves with stem -->
+    <g fill="#16A34A" stroke="#15803D" stroke-width="1.5">
+      <path d="M380 260 Q405 240 420 265 Q395 280 380 260 Z" />
+      <path d="M340 290 Q360 270 375 295 Q355 310 340 290 Z" />
+      <path d="M430 270 Q455 250 470 275 Q445 290 430 270 Z" />
+      <path d="M380 360 Q400 340 415 365 Q395 380 380 360 Z" />
+    </g>
+    <!-- Extra Virgin Olive Oil Drizzle -->
+    <path d="M330 250 Q400 220 460 290 Q400 360 340 320" fill="none" stroke="#EAB308" stroke-width="3" opacity="0.6"/>
+  
+  
+
+  <!-- Lighting & Steam Highlights -->
+  <ellipse cx="380" cy="220" rx="140" ry="80" fill="#fff" opacity="0.08" />
+
+  <!-- Bottom Gradient Overlay for typography contrast -->
+  <rect y="460" width="800" height="140" fill="url(#bgGlow)" opacity="0.92" />
+  <line x1="0" y1="460" x2="800" y2="460" stroke="#f97316" stroke-width="2" opacity="0.4"/>
+
+  <!-- Dish Title & Details -->
+  <text x="40" y="520" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="bold" fill="#FDFBF7" letter-spacing="0.5">Margherita Wood-Fired</text>
+  <text x="40" y="560" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" font-weight="500" fill="#D2B68D">San Marzano tomatoes, fresh mozzarella balls & fragrant basil</text>
+
+  <!-- Badge in top right corner -->
+  <g transform="translate(620, 36)">
+    <rect width="144" height="34" rx="17" fill="#c2410c" opacity="0.9" />
+    <text x="72" y="22" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.8">CLASSIC VEG</text>
+  </g>
+</svg>

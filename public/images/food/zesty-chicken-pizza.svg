@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" class="w-full h-full object-cover">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#2c1810" />
+      <stop offset="60%" stop-color="#1a0e0a" />
+      <stop offset="100%" stop-color="#0d0705" />
+    </radialGradient>
+    <linearGradient id="crustGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="40%" stop-color="#9A3412" />
+      <stop offset="80%" stop-color="#7C2D12" />
+      <stop offset="100%" stop-color="#431407" />
+    </linearGradient>
+    <radialGradient id="cheeseGrad" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="35%" stop-color="#FDE047" />
+      <stop offset="70%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </radialGradient>
+    <radialGradient id="sauceGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DC2626" />
+      <stop offset="70%" stop-color="#B91C1C" />
+      <stop offset="100%" stop-color="#7F1D1D" />
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000" flood-opacity="0.45" />
+    </filter>
+    <filter id="charDrop" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Warm Slate / Wood Table Texture -->
+  <rect width="800" height="600" fill="url(#bgGlow)" />
+
+  <!-- Subtle rustic wooden table grain lines -->
+  <g opacity="0.12" stroke="#fff" stroke-width="1.5">
+    <line x1="0" y1="120" x2="800" y2="120" stroke-dasharray="120 40 80 60"/>
+    <line x1="0" y1="280" x2="800" y2="280" stroke-dasharray="90 30 150 40"/>
+    <line x1="0" y1="440" x2="800" y2="440" stroke-dasharray="200 50 100 80"/>
+  </g>
+
+  <!-- Serving Board / Plate -->
+  <g filter="url(#shadow)">
+    <circle cx="400" cy="290" r="230" fill="#292524" stroke="#44403c" stroke-width="6" />
+    <circle cx="400" cy="290" r="222" fill="#1c1917" opacity="0.6"/>
+  </g>
+
+  <!-- Specific Food Art Elements -->
+  
+    <!-- Pizza Crust -->
+    <g filter="url(#shadow)">
+      <circle cx="400" cy="290" r="195" fill="url(#crustGrad)" />
+      <!-- Charred Leopard Spots on rim -->
+      <ellipse cx="230" cy="230" rx="14" ry="7" fill="#1c1917" transform="rotate(-30 230 230)" opacity="0.85"/>
+      <ellipse cx="320" cy="115" rx="18" ry="8" fill="#1c1917" opacity="0.9"/>
+      <ellipse cx="480" cy="112" rx="16" ry="9" fill="#1c1917" transform="rotate(15 480 112)" opacity="0.85"/>
+      <ellipse cx="570" cy="220" rx="13" ry="8" fill="#1c1917" transform="rotate(40 570 220)" opacity="0.9"/>
+      <ellipse cx="560" cy="380" rx="17" ry="7" fill="#1c1917" transform="rotate(-35 560 380)" opacity="0.85"/>
+      <ellipse cx="430" cy="470" rx="19" ry="8" fill="#1c1917" opacity="0.9"/>
+      <ellipse cx="260" cy="410" rx="15" ry="9" fill="#1c1917" transform="rotate(25 260 410)" opacity="0.85"/>
+      
+      <!-- Rich San Marzano Tomato Base -->
+      <circle cx="400" cy="290" r="162" fill="url(#sauceGrad)" />
+      
+      <!-- Melted Golden Mozzarella Layer -->
+      <circle cx="400" cy="290" r="150" fill="url(#cheeseGrad)" opacity="0.95" />
+      
+      <!-- Bubbling Cheese & Char Patches -->
+      <circle cx="360" cy="260" r="28" fill="#FEF08A" opacity="0.6"/>
+      <circle cx="450" cy="310" r="32" fill="#FEF08A" opacity="0.5"/>
+      <ellipse cx="380" cy="340" rx="16" ry="8" fill="#9A3412" opacity="0.7"/>
+      <ellipse cx="430" cy="220" rx="14" ry="7" fill="#9A3412" opacity="0.65"/>
+    </g>
+
+    <!-- Specific Toppings -->
+    
+    <!-- Spiced Chicken Chunks -->
+    <g fill="#B45309" stroke="#78350F" stroke-width="2">
+      <path d="M340 220 Q355 210 365 225 Q360 245 340 240 Z" />
+      <path d="M430 240 Q450 230 460 250 Q445 265 425 255 Z" />
+      <path d="M360 320 Q380 310 390 330 Q375 350 355 340 Z" />
+      <path d="M440 330 Q460 320 470 340 Q455 360 435 350 Z" />
+      <path d="M300 280 Q320 270 330 290 Q315 310 295 300 Z" />
+      <path d="M470 280 Q490 270 500 290 Q485 310 465 300 Z" />
+    </g>
+    <!-- Paprika & Red Peppers -->
+    <g fill="#DC2626" opacity="0.9">
+      <ellipse cx="320" cy="250" rx="8" ry="4" transform="rotate(30 320 250)"/>
+      <ellipse cx="410" cy="200" rx="9" ry="4" transform="rotate(-20 410 200)"/>
+      <ellipse cx="480" cy="250" rx="8" ry="4" transform="rotate(45 480 250)"/>
+      <ellipse cx="340" cy="360" rx="9" ry="4" transform="rotate(60 340 360)"/>
+      <ellipse cx="430" cy="380" rx="8" ry="4" transform="rotate(-30 430 380)"/>
+      <ellipse cx="390" cy="280" rx="7" ry="4"/>
+    </g>
+    <!-- Fresh Basil Leaves -->
+    <g fill="#15803D" stroke="#166534" stroke-width="1.5">
+      <path d="M380 230 Q400 215 410 235 Q395 245 380 230 Z"/>
+      <path d="M420 300 Q440 285 450 305 Q435 315 420 300 Z"/>
+      <path d="M330 300 Q350 285 360 305 Q345 315 330 300 Z"/>
+    </g>
+  
+  
+
+  <!-- Lighting & Steam Highlights -->
+  <ellipse cx="380" cy="220" rx="140" ry="80" fill="#fff" opacity="0.08" />
+
+  <!-- Bottom Gradient Overlay for typography contrast -->
+  <rect y="460" width="800" height="140" fill="url(#bgGlow)" opacity="0.92" />
+  <line x1="0" y1="460" x2="800" y2="460" stroke="#f97316" stroke-width="2" opacity="0.4"/>
+
+  <!-- Dish Title & Details -->
+  <text x="40" y="520" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="bold" fill="#FDFBF7" letter-spacing="0.5">Zesty Chicken Pizza</text>
+  <text x="40" y="560" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" font-weight="500" fill="#D2B68D">Smoky spiced chicken chunks, paprika, fresh herbs & fior di latte</text>
+
+  <!-- Badge in top right corner -->
+  <g transform="translate(620, 36)">
+    <rect width="144" height="34" rx="17" fill="#c2410c" opacity="0.9" />
+    <text x="72" y="22" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.8">SIGNATURE NON-VEG</text>
+  </g>
+</svg>

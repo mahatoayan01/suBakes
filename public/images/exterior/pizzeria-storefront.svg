@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" class="w-full h-full object-cover">
+  <defs>
+    <linearGradient id="warmInterior" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D150B"/>
+      <stop offset="60%" stop-color="#190B05"/>
+      <stop offset="100%" stop-color="#0B0502"/>
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#FDE047" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#EA580C" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#warmInterior)"/>
+  <rect width="800" height="600" fill="url(#lampGlow)"/>
+  
+  <!-- Architectural brick / wood accents -->
+  <g stroke="#3E2012" stroke-width="2" opacity="0.4">
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="320" x2="800" y2="320"/>
+    <line x1="0" y1="460" x2="800" y2="460"/>
+    <!-- vertical lines -->
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+  </g>
+  
+  <!-- Warm hanging pendant lamps -->
+  <g>
+    <line x1="240" y1="0" x2="240" y2="160" stroke="#78350F" stroke-width="3"/>
+    <path d="M210 160 Q240 130 270 160 Z" fill="#9A3412"/>
+    <circle cx="240" cy="175" r="14" fill="#FEF08A"/>
+    
+    <line x1="560" y1="0" x2="560" y2="160" stroke="#78350F" stroke-width="3"/>
+    <path d="M530 160 Q560 130 590 160 Z" fill="#9A3412"/>
+    <circle cx="560" cy="175" r="14" fill="#FEF08A"/>
+  </g>
+
+  <!-- Rustic dining tables & cozy seating -->
+  <g opacity="0.85">
+    <rect x="140" y="360" width="200" height="120" rx="10" fill="#451A03" stroke="#270E02" stroke-width="4"/>
+    <rect x="460" y="360" width="200" height="120" rx="10" fill="#451A03" stroke="#270E02" stroke-width="4"/>
+    <circle cx="240" cy="420" r="24" fill="#FEF08A" opacity="0.7"/>
+    <circle cx="560" cy="420" r="24" fill="#FEF08A" opacity="0.7"/>
+  </g>
+  
+  <!-- Text Label Overlay -->
+  <rect y="480" width="800" height="120" fill="#0B0502" opacity="0.9"/>
+  <text x="40" y="535" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="bold" fill="#FDFBF7">SuBakes Storefront</text>
+  <text x="40" y="570" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="15" fill="#D2B68D">Chaitanya Apartment, near SP College, Sadashiv Peth</text>
+</svg>
