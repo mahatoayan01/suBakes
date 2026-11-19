@@ -53,8 +53,8 @@ export default function Home() {
       <section className="relative overflow-hidden bg-charcoal-950 text-white pt-12 pb-20 lg:pt-16 lg:pb-28">
         <div className="absolute inset-0 opacity-40 mix-blend-screen pointer-events-none">
           <img 
-            src="/images/hero/subakes-wood-fired-hero.jpg" 
-            alt="Artisan wood-fired pizza stone oven background" 
+            src="/images/food/margherita-wood-fired-pizza.jpg" 
+            alt="Artisan wood-fired Margherita pizza background" 
             className="w-full h-full object-cover"
             width="1600"
             height="900"
@@ -158,8 +158,8 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-2xl overflow-hidden shadow-warm border border-crust-200">
                 <img 
-                  src="/images/interior/wood-fired-stone-oven.jpg" 
-                  alt="Wood-fired stone oven at 450 degrees" 
+                  src="/images/food/paneer-piccante-pizza.jpg" 
+                  alt="Artisanal Paneer Piccante pizza" 
                   className="w-full h-56 object-cover"
                   loading="lazy"
                   width="800"
