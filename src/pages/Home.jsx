@@ -53,7 +53,7 @@ export default function Home() {
       <section className="relative overflow-hidden bg-charcoal-950 text-white pt-12 pb-20 lg:pt-16 lg:pb-28">
         <div className="absolute inset-0 opacity-40 mix-blend-screen pointer-events-none">
           <img 
-            src="/images/hero/subakes-wood-fired-hero.svg" 
+            src="/images/hero/subakes-wood-fired-hero.jpg" 
             alt="Artisan wood-fired pizza stone oven background" 
             className="w-full h-full object-cover"
             width="1600"
@@ -125,7 +125,7 @@ export default function Home() {
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-2xl overflow-hidden border-2 border-ember-900/40 shadow-2xl bg-neutral-900 group">
                 <img 
-                  src="/images/food/zesty-chicken-pizza.svg" 
+                  src="/images/food/zesty-chicken-pizza.jpg" 
                   alt="SuBakes signature Zesty Chicken Pizza freshly baked" 
                   className="w-full h-80 sm:h-96 object-cover transform group-hover:scale-105 transition-transform duration-500"
                   width="800"
@@ -158,7 +158,7 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-2xl overflow-hidden shadow-warm border border-crust-200">
                 <img 
-                  src="/images/interior/wood-fired-stone-oven.svg" 
+                  src="/images/interior/wood-fired-stone-oven.jpg" 
                   alt="Wood-fired stone oven at 450 degrees" 
                   className="w-full h-56 object-cover"
                   loading="lazy"
@@ -168,7 +168,7 @@ export default function Home() {
               </div>
               <div className="rounded-2xl overflow-hidden shadow-warm border border-crust-200 pt-6">
                 <img 
-                  src="/images/food/cheese-garlic-bread.svg" 
+                  src="/images/food/cheese-garlic-bread.jpg" 
                   alt="Artisanal cheese garlic bread with dip" 
                   className="w-full h-56 object-cover"
                   loading="lazy"

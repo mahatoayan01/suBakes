@@ -9,7 +9,7 @@ export const instagramData = {
   posts: [
     {
       id: "insta-1",
-      image: "/images/instagram/insta-post-1.svg",
+      image: "/images/instagram/insta-post-1.jpg",
       imageSource: "web-sample",
       isSample: true,
       caption: "Fresh out of the 450°C stone oven! Crisp leopard-spotted rim with molten mozzarella and spiced chicken chunks. 🔥🍕",
@@ -20,7 +20,7 @@ export const instagramData = {
     },
     {
       id: "insta-2",
-      image: "/images/instagram/insta-post-2.svg",
+      image: "/images/instagram/insta-post-2.jpg",
       imageSource: "web-sample",
       isSample: true,
       caption: "Cheese pull dreams do come true! Artisanal wood-fired garlic baguette with house-churned garlic butter and rich dip. 🧀🧄",
@@ -31,7 +31,7 @@ export const instagramData = {
     },
     {
       id: "insta-3",
-      image: "/images/instagram/insta-post-3.svg",
+      image: "/images/instagram/insta-post-3.jpg",
       imageSource: "web-sample",
       isSample: true,
       caption: "The heart of SuBakes: hardwood timber glowing at 450°C. Pure artisanal Neapolitan craft in Sadashiv Peth. 🔥",
@@ -42,7 +42,7 @@ export const instagramData = {
     },
     {
       id: "insta-4",
-      image: "/images/instagram/insta-post-4.svg",
+      image: "/images/instagram/insta-post-4.jpg",
       imageSource: "web-sample",
       isSample: true,
       caption: "Quattro Formaggi indulgence: Gorgonzola, aged Parmigiano, creamy Ricotta, and fresh Mozzarella on sourdough. 🧀",
@@ -53,7 +53,7 @@ export const instagramData = {
     },
     {
       id: "insta-5",
-      image: "/images/instagram/insta-post-5.svg",
+      image: "/images/instagram/insta-post-5.jpg",
       imageSource: "web-sample",
       isSample: true,
       caption: "Always save room for dessert! Our signature Caramel Dream Cake with hot salted butterscotch drizzle. 🍰🍯",
@@ -64,7 +64,7 @@ export const instagramData = {
     },
     {
       id: "insta-6",
-      image: "/images/instagram/insta-post-6.svg",
+      image: "/images/instagram/insta-post-6.jpg",
       imageSource: "web-sample",
       isSample: true,
       caption: "Appetizer perfection: Crispy sourdough crostini, silky garlic hummus, and cilantro herb chicken. 🌿🥖",
